@@ -5,35 +5,35 @@ public class HesapMakinesi {
 		int n1,n2,selected;
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("İlk Sayıyı Giriniz: ");
+		System.out.print("Ä°lk SayÃ½yÃ½ Giriniz: ");
 		n1 = input.nextInt();
-		System.out.print("İkinci Sayıyı Giriniz: ");
+		System.out.print("Ãkinci SayÃ½yÃ½ Giriniz: ");
 		n2 = input.nextInt();
 		
-		System.out.println("\n1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme\n");
-		System.out.print("Seçiminiz: ");
+		System.out.println("\n1-Toplama\n2-Ã‡Ã½karma\n3-Ã‡arpma\n4-BÃ¶lme\n");
+		System.out.print("SeÃ§iminiz: ");
 		selected = input.nextInt();
 		
 		switch (selected) {
 		case 1:
-			System.out.println("Toplamı: "+ (n1+n2));
+			System.out.println("ToplamÃ½: "+ (n1+n2));
 			break;
 		case 2:
-			System.out.println("Farkı: "+ (n1-n2));
+			System.out.println("FarkÃ½: "+ (n1-n2));
 			break;
 		case 3:
-			System.out.println("Çarpımı: "+ (n1*n2));
+			System.out.println("Ã‡arpÃ½mÃ½: "+ (n1*n2));
 			break;
 		case 4:
 			try {
-				System.out.println("Bölümü: "+ (n1/n2));
+				System.out.println("BÃ¶lÃ¼mÃ¼: "+ (n1/n2));
 				break;
 			} catch (Exception e) {
-				System.out.println("Bir sayı 0'a bölünemez!");
+				System.out.println("Bir sayÃ½ 0'a bÃ¶lÃ¼nemez!");
 				break;
 			}
 		default:
-			System.out.println("Geçersiz Giriş!");
+			System.out.println("GeÃ§ersiz GiriÃ¾!");
 			break;
 		}
 		input.close();
