@@ -5,13 +5,13 @@ public class SayiSiralama {
 		int a,b,c;
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("1. Sayýyý Giriniz: ");
+		System.out.print("1. SayÄ±yÄ± Giriniz: ");
 		a = input.nextInt();
 		
-		System.out.print("2. Sayýyý Giriniz: ");
+		System.out.print("2. SayÄ±yÄ± Giriniz: ");
 		b = input.nextInt();
 		
-		System.out.print("3. Sayýyý Giriniz: ");
+		System.out.print("3. SayÄ±yÄ± Giriniz: ");
 		c = input.nextInt();
 		
 		if ((a>b) && (a>c)) {
