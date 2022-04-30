@@ -5,7 +5,7 @@ public class EtkinlikOnerme {
 		int sicaklik;
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Sýcaklýk Giriniz: ");
+		System.out.print("SÄ±caklÄ±k Giriniz: ");
 		sicaklik = input.nextInt();
 
 		if (sicaklik < 5)
@@ -13,9 +13,9 @@ public class EtkinlikOnerme {
 		else if (sicaklik < 15 && sicaklik >= 5 )
 			System.out.println("Sinemaya gidebilirsiniz");
 		else if (sicaklik < 25 && sicaklik >= 15)
-			System.out.println("Pikniðe gidebilirsiniz.");
+			System.out.println("PikniÄŸe gidebilirsiniz.");
 		else
-			System.out.println("Yüzmeye gidebilirsiniz.");
+			System.out.println("YÃ¼zmeye gidebilirsiniz.");
 		
 		input.close();
 	}
